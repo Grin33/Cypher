@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphabetCypher", "AlphabetC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Viginere", "Viginere\Viginere.csproj", "{6B3C680A-6737-41F9-8793-48B6BD5E81B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gost89", "Gost89\Gost89.csproj", "{CA46A6CD-AF71-4E38-83B1-C1C7188C5C81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6B3C680A-6737-41F9-8793-48B6BD5E81B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B3C680A-6737-41F9-8793-48B6BD5E81B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B3C680A-6737-41F9-8793-48B6BD5E81B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA46A6CD-AF71-4E38-83B1-C1C7188C5C81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA46A6CD-AF71-4E38-83B1-C1C7188C5C81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA46A6CD-AF71-4E38-83B1-C1C7188C5C81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA46A6CD-AF71-4E38-83B1-C1C7188C5C81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

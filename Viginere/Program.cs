@@ -16,6 +16,8 @@ while (string.IsNullOrEmpty(password))
 }
 
 Console.WriteLine("Зашифрованный текст");
-Console.WriteLine(cypher.Encrypt(inputText,password));
+var cypherText = cypher.Encrypt(inputText, password);
+Console.WriteLine(cypherText);
 Console.WriteLine("Дешифрованный текст");
-Console.WriteLine(cypher.Decrypt(inputText, password));
+Console.WriteLine(cypher.Decrypt(cypherText, password));
+Console.ReadLine();
